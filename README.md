@@ -14,7 +14,7 @@ The environment offers two simulation engines behind the same interface. The fir
 - [How it works](#how-it-works)
 - [Limitations](#limitations)
 - [Troubleshooting](#troubleshooting)
-- [Acknowledgements and references](#acknowledgements-and-references)
+- [References](#References)
 
 ## Repository structure
 
@@ -142,6 +142,6 @@ The reactor is isothermal, with a uniform temperature along its length. The soot
 
 Most errors explain themselves in the message printed by the launcher: a mandatory cell left empty is reported by its column name, and filling both flow rate columns or neither of them is rejected. A `ModuleNotFoundError` usually means that the environment is not active, or that the editor is using a different Python interpreter from the one where the libraries were installed. A `PermissionError` when saving results almost always means that the results workbook is open in Excel.
 
-## Acknowledgements and references
+## References
 
 This project builds on Cantera and Omnisoot, and results obtained with it should cite them. Omnisoot is described in *Omnisoot: an object-oriented process design package for gas-phase synthesis of carbonaceous nanoparticles* ([arXiv:2507.10879](https://arxiv.org/abs/2507.10879)). For Cantera, please follow the citation guidance on the [Cantera website](https://cantera.org). The chemical mechanisms in `data/` belong to their respective authors and should be cited accordingly.
